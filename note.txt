@@ -14,5 +14,11 @@ CREATE TABLE users (
     email VARCHAR(255) NOT NULL UNIQUE
 );
 
+post
+http://localhost:3000/api/register
+{
+    "username":"nuremb",
+    "password":"12345678",
+    "email":"nnmd@n.com"
 
-
+}
