@@ -37,7 +37,7 @@ router.post('/register', [
     res.status(500).json(error);
   }
 });
-
+//kontrolleri devre dışı bırakarak
 // router.post('/register', async (req, res) => {
 //   const { username, password, email } = req.body;
 //   try {
