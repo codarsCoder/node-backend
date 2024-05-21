@@ -1,0 +1,28 @@
+npm itin -y
+npm install express mysql2 jsonwebtoken bcryptjs body-parser  dotenv
+
+
+
+
+
+
+CREATE DATABASE myappdb;
+USE myappdb;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE
+);
+
+
+CREATE DATABASE myappdb;
+USE myappdb;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE
+);
